@@ -32,5 +32,5 @@ for filename in os.listdir(source_folder):
         destination_path = os.path.join(destination_folder, new_filename)
         # Save the new image to destination directory in jpeg format
         resized_image.save(destination_path, format="JPEG")
-# Print the statement
+# Print the statement to show successfull message.
 print("Successfully handled images, converted file to Jpeg and saved to destination_folder")
